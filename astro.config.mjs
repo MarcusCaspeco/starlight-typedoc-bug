@@ -17,7 +17,7 @@ export default defineConfig({
 				typeDocSidebarGroup,
 			],
 			plugins: [
-				// Delete .astro directory and run "npm run astro sync" = see error
+				// Delete .astro directory and run "npm run astro sync" or "npm run build" = see error
 				// Comment out plugin = sync and build works again
 				starlightTypeDoc({
 					entryPoints: ["./example-lib/index.d.ts"],
